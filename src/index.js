@@ -6,7 +6,7 @@ import './functionbased/App.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <TodoContainer />
     </BrowserRouter>
   </React.StrictMode>, document.getElementById('root'),
