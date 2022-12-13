@@ -1,13 +1,14 @@
 import React from 'react';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import ReactDOM from 'react-dom';
 import TodoContainer from './functionbased/components/TodoContainer';
 import './functionbased/App.css';
 
-ReactDOM.render(
+const root = createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <TodoContainer />
     </BrowserRouter>
-  </React.StrictMode>, document.getElementById('root'),
+  </React.StrictMode>,
 );

@@ -4,7 +4,11 @@ import { FaTrash } from 'react-icons/fa';
 import styles from './TodoItem.module.css';
 
 const TodoItem = (props) => {
-  const { editing, setEditing } = useState(false);
+  const [editing, setEditing] = useState(false);
+
+  useEffect(() => () => {
+    console.log('Cleaning up...');
+  }, []);
 
   const handleEditing = () => {
     setEditing(true);
@@ -35,10 +39,6 @@ const TodoItem = (props) => {
   } else {
     editMode.display = 'none';
   }
-
-  useEffect(() => () => {
-    console.log('Cleaning up...');
-  }, []);
 
   return (
     <li className={styles.item}>
