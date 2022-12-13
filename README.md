@@ -29,7 +29,7 @@
 
 > "To Do" is a website for keeping track of your tasks. 
  It is a Single Page App (SPA) that allows users to:
-- Add task.
+- Add/edit task.
 - Update its status and remove when it is completed.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -54,7 +54,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Calculator**
+- **CRUD functionality**
 - **User Interface**
 - **React**
 
@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Available soon
+> [Click Here](https://asharanjith.github.io/to-do-react/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
