@@ -8,16 +8,7 @@ import Header from './Header';
 import InputTodo from './InputTodo';
 
 const TodoContainer = () => {
-  // useEffect(() => {
-  //   const temp = localStorage.getItem('todos');
-  //   const loadedTodos = JSON.parse(temp);
-  //   if (loadedTodos) {
-  //     setTodos(loadedTodos);
-  //   }
-  // }, [setTodos]);
-
   function getInitialTodos() {
-    // getting stored items
     const temp = localStorage.getItem('todos');
     const savedTodos = JSON.parse(temp);
     return savedTodos || [];
