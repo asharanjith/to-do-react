@@ -125,7 +125,7 @@ Example command:
 
 ## 👤 Author <a name="authors"></a>
 
-👤 **Mert Kaya**
+👤 **Asha S Vijayan**
 
 - GitHub: [@asharanjith](https://github.com/asharanjith)
 - Twitter: [@asha_cep](https://twitter.com/asha_cep)
